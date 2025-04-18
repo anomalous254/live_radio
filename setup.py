@@ -2,10 +2,11 @@ from setuptools import setup, find_packages
 
 setup(
     name='live_radio',
-    version='0.1.1',
+    version='0.1.2',
     packages=find_packages(),
     install_requires=[
         'pyradios',
+        'setuptools',
     ],
     author='Peter Nyando',
     author_email='nyandopeter2@gmail.com', 

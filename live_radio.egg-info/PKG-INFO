@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: live_radio
-Version: 0.1.1
+Version: 0.1.2
 Summary: Get live radio station streams by country
 Home-page: https://github.com/anomalous254/live_radio
 Author: Peter Nyando
@@ -13,6 +13,7 @@ Requires-Python: >=3.6
 Description-Content-Type: text/markdown
 License-File: LICENSE
 Requires-Dist: pyradios
+Requires-Dist: setuptools
 Dynamic: author
 Dynamic: author-email
 Dynamic: classifier
