@@ -1,0 +1,47 @@
+Metadata-Version: 2.4
+Name: live_radio
+Version: 0.1.1
+Summary: Get live radio station streams by country
+Home-page: https://github.com/anomalous254/live_radio
+Author: Peter Nyando
+Author-email: nyandopeter2@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyradios
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# live_radio
+
+Get live radio station stream info by country using pyradios.
+
+## Installation
+
+```bash
+pip install live_radio
+```
+
+## Usage
+
+```python
+from live_radio import get_stations_by_country
+
+stations = get_stations_by_country("Kenya", limit=10)
+for station in stations:
+    print(station["name"], station["url"])
+```
+
