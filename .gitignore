@@ -1,2 +1,7 @@
 /dist
 /venv
+/live_radio.egg-info
+/__pycache__/
+*.pyc
+*.pyo
+*.pyd
